@@ -8,13 +8,13 @@ Remember to install the cordova plugin also!! this is just a wrapper
 
 pub package: https://pub.dartlang.org/packages/dart_cordova_keyboard_plugin#-readme-tab-
 
-##installation:
+## installation:
 add this to your dependencies
 ```
 dependencies:
   dart_cordova_keyboard_plugin: ^1.0.0
 ```
-##import
+## import
 ```
 import 'package:dart_cordova_keyboard_plugin/keyboard_plugin.dart';
 ```
