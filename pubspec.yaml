@@ -1,8 +1,8 @@
 name: dart_cordova_keyboard_plugin
 description: Dart wrapper for cordova plugin, cordova-plugin-ionic-keyboard
-# version: 1.0.0
-# homepage: https://www.example.com
-# author: Moczniak <moczniak@gmail.com>
+version: 1.0.0
+homepage: https://github.com/moczix/dart_cordova_keyboard_plugin
+author: Moczniak <czornypan@gmail.com>
 
 environment:
   sdk: '>=2.1.0 <3.0.0'
