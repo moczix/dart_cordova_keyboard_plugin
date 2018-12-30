@@ -85,9 +85,7 @@
       <h2><span>Implementation</span> </h2>
       <pre class="language-dart"><code class="language-dart">Future&lt;bool&gt; hideFormAccessoryBar(bool hide) {
   Completer&lt;bool&gt; completer = new Completer();
-  KeyboardCordova.hideFormAccessoryBar(hide, allowInterop((bool currentValue){
-    completer.complete(currentValue);
-  }));
+  KeyboardCordova.hideFormAccessoryBar(hide, allowInterop((bool currentValue) =&gt; completer.complete(currentValue)));
   return completer.future;
 }</code></pre>
     </section>
@@ -101,7 +99,7 @@
 
 <footer>
   <span class="no-break">
-    dart_cordova_keyboard_plugin 0.0.0-unknown
+    dart_cordova_keyboard_plugin 1.0.1
   </span>
 
 </footer>

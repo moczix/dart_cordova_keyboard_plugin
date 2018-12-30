@@ -12,7 +12,7 @@ pub package: https://pub.dartlang.org/packages/dart_cordova_keyboard_plugin#-rea
 add this to your dependencies
 ```
 dependencies:
-  dart_cordova_keyboard_plugin: ^1.0.0
+  dart_cordova_keyboard_plugin: ^1.0.1
 ```
 ## import
 ```

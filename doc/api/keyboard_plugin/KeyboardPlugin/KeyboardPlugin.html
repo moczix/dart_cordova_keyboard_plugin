@@ -80,8 +80,8 @@
     <section class="summary source-code" id="source">
       <h2><span>Implementation</span> </h2>
       <pre class="language-dart"><code class="language-dart">KeyboardPlugin() {
-  window.addEventListener(&#39;keyboardDidShow&#39;, (dynamic event) {
-    _keyboardDidShow.add(KeyboardPluginEvent(event.keyboardHeight));
+  window.addEventListener(&#39;keyboardDidShow&#39;, (Event event) {
+    _keyboardDidShow.add(KeyboardPluginEvent(new JsObject.fromBrowserObject(event)[&#39;keyboardHeight&#39;]));
   });
 
   window.addEventListener(&#39;keyboardDidHide&#39;, (Event event) =&gt; _keyboardDidHide.add(null));
@@ -99,7 +99,7 @@
 
 <footer>
   <span class="no-break">
-    dart_cordova_keyboard_plugin 0.0.0-unknown
+    dart_cordova_keyboard_plugin 1.0.1
   </span>
 
 </footer>
